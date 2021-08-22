@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Watcha</string>
+    <string name="title_track">Track</string>
+    <string name="title_favorite">Favorite</string>
+</resources>

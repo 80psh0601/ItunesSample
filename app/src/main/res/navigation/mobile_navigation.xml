@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_track">
+
+    <fragment
+        android:id="@+id/navigation_track"
+        android:name="com.example.watcha.ui.track.TrackFragment"
+        android:label="@string/title_track"
+        tools:layout="@layout/fragment_track" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.watcha.ui.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>
